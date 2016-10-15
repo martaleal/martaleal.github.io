@@ -1,6 +1,14 @@
-body.ace-theme {
-  background: #fff;
-  color: rgba(0, 0, 0, 0.88)
+.color, a {
+  color: #30bf78;
+  fill: #30bf78;
+}
+
+.company_url {
+  color: #1a1a1a;
+}
+
+.company_url:hover {
+  color: #30bf78 !important;
 }
 
 #resume {
@@ -98,92 +106,6 @@ body.ace-theme {
   width: 768px !important
 }
 
-.dark-theme.not-pdf,
-.dark-theme.not-pdf #resume,
-.dark-theme.not-pdf #main {
-  background: #0a0a0a
-}
-
-.dark-theme.not-pdf #name,
-.dark-theme.not-pdf .current-position,
-.dark-theme.not-pdf .title,
-.dark-theme.not-pdf .subtitle,
-.dark-theme.not-pdf .skills li,
-.dark-theme.not-pdf .contact li {
-  color: #FFF !important
-}
-
-.dark-theme.not-pdf #about,
-.dark-theme.not-pdf .subContact li,
-.dark-theme.not-pdf #top ul.subContact li a,
-.dark-theme.not-pdf .time,
-.dark-theme.not-pdf #resume #main .list ul li h3.location,
-.dark-theme.not-pdf #resume #main .list ul li .description,
-.dark-theme.not-pdf #top .subAbout p.about-me {
-  color: rgba(255, 255, 255, 0.64) !important
-}
-
-.dark-theme.not-pdf .period {
-  color: rgba(255, 255, 255, 0.4) !important
-}
-
-.dark-theme.not-pdf #footer {
-  border-top: 1px solid rgba(255, 255, 255, 0.08)
-}
-
-.dark-theme.not-pdf .created {
-  color: rgba(255, 255, 255, 0.48) !important
-}
-
-.dark-theme.not-pdf .copyright {
-  color: rgba(255, 255, 255, 0.32) !important
-}
-
-.spacing-small #resume {
-  padding: 49px 0
-}
-
-.spacing-small #top .subAbout {
-  margin-top: 20px
-}
-
-.spacing-small #resume #main h2 {
-  margin-top: 28px
-}
-
-.spacing-small #resume #main .list ul {
-  margin-top: -8px
-}
-
-.spacing-small #resume #main .list ul li {
-  margin-top: 20px
-}
-
-.spacing-small #resume #main #skills.list ul li:not(:first-child),
-.spacing-small #resume #main #contact.list ul li:not(:first-child) {
-  margin-top: 4px
-}
-
-.spacing-large #resume {
-  padding: 81px 0 73px
-}
-
-.spacing-large #top .subAbout {
-  margin-top: 44px
-}
-
-.spacing-large #resume #main h2 {
-  margin-top: 52px
-}
-
-.spacing-large #resume #main .list ul {
-  margin-top: 0
-}
-
-.spacing-large #resume #main .list ul li {
-  margin-top: 20px
-}
-
 @media screen and (max-width: 959px) {
   #resume,
   #footer {
@@ -196,13 +118,6 @@ body.ace-theme {
 
   .desktop-hide {
     display: block !important
-  }
-
-  .left,
-  .right {
-    float: none;
-    padding: 0 !important;
-    width: 100% !important
   }
 
   #resume #main .list ul li .description {
@@ -259,5 +174,4 @@ body.ace-theme {
   body {
     margin-top: 17px
   }
-
 }
