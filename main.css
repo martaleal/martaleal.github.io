@@ -13,7 +13,7 @@
 
 #resume {
   margin: 0 auto;
-  padding: 65px 0 57px
+  padding: 65px 0 57px;
 }
 
 #top h1#name {
@@ -21,11 +21,11 @@
   line-height: 40px;
   color: rgba(0, 0, 0, 0.88);
   text-transform: uppercase;
-  font-weight: 700
+  font-weight: 700;
 }
 
 #top h1#name span {
-  font-weight: 300
+  font-weight: 300;
 }
 
 #top ul.subContact {
@@ -36,16 +36,16 @@
 #top ul.subContact li {
   display: inline-block;
   color: rgba(0, 0, 0, 0.64);
-  margin-right: 8px
+  margin-right: 8px;
 }
 
 #top ul.subContact li a {
-  color: rgba(0, 0, 0, 0.64) !important
+  color: rgba(0, 0, 0, 0.64) !important;
 }
 
 #top .subAbout {
   margin-top: 28px;
-  font-size: 14px
+  font-size: 14px;
 }
 
 #top .subAbout h2.current-position {
@@ -53,91 +53,89 @@
   font-weight: 600;
   display: inline;
   margin-right: 4px;
-  color: rgba(0, 0, 0, 0.88)
+  color: rgba(0, 0, 0, 0.88);
 }
 
 #top .subAbout p.about-me {
   display: inline;
-  color: rgba(0, 0, 0, 0.64)
+  color: rgba(0, 0, 0, 0.64);
 }
 
 #resume #main .list ul {
-  margin-top: -8px
+  margin-top: -8px;
 }
 
 #resume #main .list ul li {
-  margin-top: 20px
+  margin-top: 20px;
 }
 
 #resume #main h2 {
   margin-top: 36px;
   font-weight: 700;
   text-transform: uppercase;
-  font-size: 14px
+  font-size: 14px;
 }
 
 #resume #main .list ul li .description {
-  color: rgba(0, 0, 0, 0.64) !important
+  color: rgba(0, 0, 0, 0.64) !important;
 }
 
 #resume #main .list ul li h3.time,
 #resume #main .list ul li .description {
-  margin-bottom: 0
+  margin-bottom: 0;
 }
 
 #resume #main #skills,
 #resume #main #contact {
-  width: 50%
+  width: 50%;
 }
 
 #resume #main #skills {
-  padding-right: 48px
+  padding-right: 48px;
 }
 
 #resume #main #contact {
-  padding-left: 48px
+  padding-left: 48px;
 }
 
 #resume #main #contact.no-skills {
-  padding-left: 0
+  padding-left: 0;
 }
 
 #footer {
-  width: 768px !important
+  width: 768px !important;
 }
 
 @media screen and (max-width: 959px) {
   #resume,
   #footer {
-    width: 512px !important
+    width: 512px !important;
   }
 
   .mobile-hide {
-    display: none
+    display: none;
   }
 
   .desktop-hide {
-    display: block !important
+    display: block !important;
   }
 
   #resume #main .list ul li .description {
-    margin-top: 4px
+    margin-top: 4px;
   }
-
 }
 
 @media screen and (max-width: 639px) {
   #resume,
   #footer {
-    width: 384px !important
+    width: 384px !important;
   }
-
 }
 
 @media screen and (max-width: 511px) {
   #resume,
   #footer {
-    width: 352px !important
+    width: 352px !important;
   }
 
 }
@@ -145,11 +143,11 @@
 @media screen and (max-width: 415px) {
   #resume,
   #footer {
-    width: 288px !important
+    width: 288px !important;
   }
 
   #resume {
-    padding: 65px 0 57px
+    padding: 65px 0 57px;
   }
 
 }
@@ -157,18 +155,17 @@
 @media screen and (max-width: 351px) {
   #resume,
   #footer {
-    width: 256px !important
+    width: 256px !important;
   }
-
 }
 
 @media print {
   #top h1#name span {
-    font-weight: 100
+    font-weight: 100;
   }
 
   #resume {
-    padding: 0 !important
+    padding: 0 !important;
   }
 
   body {
