@@ -18,41 +18,12 @@ body {
   line-height: 20px
 }
 
-.clearfix {
-  clear: both
-}
-
 .desktop-hide {
   display: none
 }
 
 .pdf-show {
   display: none
-}
-
-.pending {
-  margin-top: 20px
-}
-
-.pending i {
-  display: block;
-  width: 32px;
-  height: 32px;
-  background: url("/assets/pending-dots@2x.gif") center no-repeat;
-  background-size: 32px 32px
-}
-
-.dark-theme .pending i {
-  background-image: url("/assets/pending-dots-dark@2x.gif")
-}
-
-.pending span {
-  font-size: 14px;
-  color: rgba(0, 0, 0, 0.4)
-}
-
-.dark-theme .pending span {
-  color: rgba(255, 255, 255, 0.64)
 }
 
 #resume {
@@ -178,13 +149,6 @@ body {
   color: inherit !important
 }
 
-#footer .createdbyrepresent {
-  width: 50%;
-  float: left;
-  font-weight: 400;
-  height: 16px
-}
-
 #footer .sosueme {
   float: right;
   width: 50%;
@@ -234,7 +198,4 @@ body {
   #contact {
     page-break-inside: avoid
   }
-
 }
-
-y
