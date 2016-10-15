@@ -16,7 +16,7 @@
   padding: 65px 0 57px;
 }
 
-#top h1#name {
+#name {
   font-size: 36px;
   line-height: 40px;
   color: rgba(0, 0, 0, 0.88);
@@ -24,31 +24,31 @@
   font-weight: 700;
 }
 
-#top h1#name span {
+#name span {
   font-weight: 300;
 }
 
-#top ul.subContact {
+ul.subContact {
   font-size: 14px;
   margin-top: 9px
 }
 
-#top ul.subContact li {
+ul.subContact li {
   display: inline-block;
   color: rgba(0, 0, 0, 0.64);
   margin-right: 8px;
 }
 
-#top ul.subContact li a {
+ul.subContact li a {
   color: rgba(0, 0, 0, 0.64) !important;
 }
 
-#top .subAbout {
+.subAbout {
   margin-top: 28px;
   font-size: 14px;
 }
 
-#top .subAbout h2.current-position {
+.subAbout h2.current-position {
   font-size: 14px;
   font-weight: 600;
   display: inline;
@@ -56,111 +56,37 @@
   color: rgba(0, 0, 0, 0.88);
 }
 
-#top .subAbout p.about-me {
+.subAbout p.about-me {
   display: inline;
   color: rgba(0, 0, 0, 0.64);
 }
 
-#resume #main .list ul {
+#main .list ul {
   margin-top: -8px;
 }
 
-#resume #main .list ul li {
+#main .list ul li {
   margin-top: 20px;
 }
 
-#resume #main h2 {
+#main h2 {
   margin-top: 36px;
   font-weight: 700;
   text-transform: uppercase;
   font-size: 14px;
 }
 
-#resume #main .list ul li .description {
+#main .list ul li .description {
   color: rgba(0, 0, 0, 0.64) !important;
 }
 
-#resume #main .list ul li h3.time,
-#resume #main .list ul li .description {
+#main .list ul li h3.time,
+#main .list ul li .description {
   margin-bottom: 0;
 }
 
-#resume #main #skills,
-#resume #main #contact {
-  width: 50%;
-}
-
-#resume #main #skills {
-  padding-right: 48px;
-}
-
-#resume #main #contact {
-  padding-left: 48px;
-}
-
-#resume #main #contact.no-skills {
-  padding-left: 0;
-}
-
-#footer {
-  width: 768px !important;
-}
-
-@media screen and (max-width: 959px) {
-  #resume,
-  #footer {
-    width: 512px !important;
-  }
-
-  .mobile-hide {
-    display: none;
-  }
-
-  .desktop-hide {
-    display: block !important;
-  }
-
-  #resume #main .list ul li .description {
-    margin-top: 4px;
-  }
-}
-
-@media screen and (max-width: 639px) {
-  #resume,
-  #footer {
-    width: 384px !important;
-  }
-}
-
-@media screen and (max-width: 511px) {
-  #resume,
-  #footer {
-    width: 352px !important;
-  }
-
-}
-
-@media screen and (max-width: 415px) {
-  #resume,
-  #footer {
-    width: 288px !important;
-  }
-
-  #resume {
-    padding: 65px 0 57px;
-  }
-
-}
-
-@media screen and (max-width: 351px) {
-  #resume,
-  #footer {
-    width: 256px !important;
-  }
-}
-
 @media print {
-  #top h1#name span {
+  #name span {
     font-weight: 100;
   }
 

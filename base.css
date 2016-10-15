@@ -30,60 +30,54 @@ body {
   width: 768px;
 }
 
-#resume #main .list ul li:not(:first-child) {
+#main .list ul li:not(:first-child) {
   margin-top: 28px;
 }
 
-#resume #main .list ul li h3 {
+#main .list ul li h3 {
   font-weight: 400;
   font-size: 14px;
   margin-bottom: 0;
 }
 
-.spacing-large #resume #main .list ul li h3 {
-  margin-bottom: 4px;
-}
-
-#resume #main .list ul li h3.title {
+#main .list ul li h3.title {
   font-weight: 700;
   color: rgba(0, 0, 0, 0.88);
 }
 
-#resume #main .list ul li h3.subtitle {
+#main .list ul li h3.subtitle {
   font-weight: 600;
   color: rgba(0, 0, 0, 0.88);
 }
 
-#resume #main .list ul li h3.time,
-#resume #main .list ul li h3.location {
+#main .list ul li h3.time,
+#main .list ul li h3.location {
   color: rgba(0, 0, 0, 0.64);
 }
 
-#resume #main .list ul li h3.time .period {
+#main .list ul li h3.time .period {
   color: rgba(0, 0, 0, 0.4);
 }
 
-#resume #main .list ul li .description {
+#main .list ul li .description {
   font-size: 14px;
   color: rgba(0, 0, 0, 0.4);
 }
 
-#resume #main .list ul li .description p {
+#main .list ul li .description p {
   margin-bottom: 12px;
 }
 
-#resume #main .list ul li .description p:last-of-type {
+#main .list ul li .description p:last-of-type {
   margin-bottom: 0;
 }
 
-#resume #main #skills.list ul li,
-#resume #main #contact.list ul li {
+#skills.list ul li {
   font-size: 14px;
   line-height: 20px;
 }
 
-#resume #main #skills.list ul li:not(:first-child),
-#resume #main #contact.list ul li:not(:first-child) {
+#skills.list ul li:not(:first-child) {
   margin-top: 12px;
 }
 
@@ -112,8 +106,7 @@ body {
     display: block;
   }
 
-  #skills,
-  #contact {
+  #skills {
     page-break-inside: avoid;
   }
 }
