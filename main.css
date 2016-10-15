@@ -61,27 +61,26 @@ ul.subContact li a {
   color: rgba(0, 0, 0, 0.64);
 }
 
-#main .list ul {
+.list ul {
   margin-top: -8px;
 }
 
-#main .list ul li {
+.list ul li {
   margin-top: 20px;
 }
 
-#main h2 {
+h2 {
   margin-top: 36px;
   font-weight: 700;
   text-transform: uppercase;
   font-size: 14px;
 }
 
-#main .list ul li .description {
+.description {
   color: rgba(0, 0, 0, 0.64) !important;
 }
 
-#main .list ul li h3.time,
-#main .list ul li .description {
+h3.time, .description {
   margin-bottom: 0;
 }
 

@@ -30,55 +30,46 @@ body {
   width: 768px;
 }
 
-#main .list ul li:not(:first-child) {
+.list ul li:not(:first-child) {
   margin-top: 28px;
 }
 
-#main .list ul li h3 {
+h3 {
   font-weight: 400;
   font-size: 14px;
   margin-bottom: 0;
 }
 
-#main .list ul li h3.title {
+h3.title {
   font-weight: 700;
   color: rgba(0, 0, 0, 0.88);
 }
 
-#main .list ul li h3.subtitle {
+h3.subtitle {
   font-weight: 600;
   color: rgba(0, 0, 0, 0.88);
 }
 
-#main .list ul li h3.time,
-#main .list ul li h3.location {
+h3.time,
+h3.location {
   color: rgba(0, 0, 0, 0.64);
 }
 
-#main .list ul li h3.time .period {
+h3.time .period {
   color: rgba(0, 0, 0, 0.4);
 }
 
-#main .list ul li .description {
+.description {
   font-size: 14px;
   color: rgba(0, 0, 0, 0.4);
 }
 
-#main .list ul li .description p {
+.description p {
   margin-bottom: 12px;
 }
 
-#main .list ul li .description p:last-of-type {
+.description p:last-of-type {
   margin-bottom: 0;
-}
-
-#skills.list ul li {
-  font-size: 14px;
-  line-height: 20px;
-}
-
-#skills.list ul li:not(:first-child) {
-  margin-top: 12px;
 }
 
 @media print {
@@ -86,11 +77,7 @@ body {
     font-family: "Proxima Nova", "proxima-nova" !important;
   }
 
-  #contact a {
-    color: rgba(0, 0, 0, 0.88) !important;
-  }
-
-  #resume #main .list ul li h3.time .period {
+  h3.time .period {
     display: none;
   }
 
@@ -104,9 +91,5 @@ body {
 
   .pdf-show {
     display: block;
-  }
-
-  #skills {
-    page-break-inside: avoid;
   }
 }
