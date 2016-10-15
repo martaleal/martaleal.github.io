@@ -136,13 +136,12 @@ ul.subContact li a {
   color: rgba(0, 0, 0, 0.64) !important;
 }
 
-.skill {
+li.skill {
   display: inline-block;
   background: #f1f3f3;
   padding: 4px 12px;
   border-radius: 4px;
-  margin-right: 6px;
-  font-size: 16px;
+  margin: 6px 6px 6px 0 !important;
 }
 
 .subAbout {
