@@ -14,7 +14,7 @@
 }
 
 body {
-  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Proxima Nova", "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 20px;
 }
@@ -102,7 +102,7 @@ h3.time .period {
 main {
   margin: 0 auto;
   padding: 65px 0 57px;
-  max-width: 768px;
+  max-width: 880px;
 }
 
 #name {
