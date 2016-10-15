@@ -1,27 +1,3 @@
-@font-face {
-  font-family: "Consolas Web";
-  src: url(/assets/consolas/consolas.ttf);
-  font-weight: 400
-}
-
-@font-face {
-  font-family: "Consolas Web";
-  src: url(/assets/consolas/consolas-bold.ttf);
-  font-weight: 700
-}
-
-@font-face {
-  font-family: "Iowan Old Style Web";
-  src: url(/assets/iowan-old-style/iowan-old-style-roman.ttf);
-  font-weight: 400
-}
-
-@font-face {
-  font-family: "Iowan Old Style Web";
-  src: url(/assets/iowan-old-style/iowan-old-style-bold.ttf);
-  font-weight: 700
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -153,16 +129,6 @@ body {
   margin-top: 12px
 }
 
-body.font-consolas #resume,
-body.cue-theme.font-consolas #side {
-  font-family: "Consolas Web", Courier, monospace
-}
-
-body.font-iowan-old-style #resume,
-body.cue-theme.font-iowan-old-style #side {
-  font-family: "Iowan Old Style Web", Georgia, serif
-}
-
 @media all and (max-width: 640px) {
   #footer .createdbyrepresent,
   #footer .sosueme {
@@ -232,14 +198,6 @@ body.cue-theme.font-iowan-old-style #side {
 @media print {
   body {
     font-family: "Proxima Nova", "proxima-nova" !important
-  }
-
-  body.font-consolas #resume {
-    font-family: "Consolas" !important
-  }
-
-  body.font-iowan-old-style #resume {
-    font-family: "Iowan Old Style" !important
   }
 
   #contact a {
