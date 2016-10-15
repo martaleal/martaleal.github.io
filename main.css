@@ -65,6 +65,19 @@ h3.time .period {
   margin-bottom: 0;
 }
 
+.cover-letter {
+  max-width: 700px;
+}
+
+article p {
+  margin: 1.8em 0.5em;
+}
+
+hr {
+  margin: 3em 0;
+  border-bottom: 0.3em solid #30bf78;
+}
+
 @media print {
   body {
     font-family: "Proxima Nova", "proxima-nova" !important;
