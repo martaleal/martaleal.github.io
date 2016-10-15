@@ -18,16 +18,8 @@ body {
   line-height: 20px;
 }
 
-.desktop-hide {
-  display: none;
-}
-
 .pdf-show {
   display: none;
-}
-
-#resume {
-  width: 768px;
 }
 
 h3 {
@@ -106,6 +98,7 @@ h3.time .period {
 #resume {
   margin: 0 auto;
   padding: 65px 0 57px;
+  max-width: 768px;
 }
 
 #name {
@@ -181,6 +174,17 @@ h2 {
 h3.time, .description {
   margin-bottom: 0;
 }
+
+@media (max-width: 800px) {
+  #resume {
+    padding: 2em 3em;
+  }
+
+  .subAbout {
+    text-align: left;
+  }
+}
+
 
 @media print {
   #name span {
