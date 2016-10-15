@@ -95,7 +95,7 @@ h3.time .period {
   color: #30bf78 !important;
 }
 
-#resume {
+main {
   margin: 0 auto;
   padding: 65px 0 57px;
   max-width: 768px;
@@ -176,7 +176,7 @@ h3.time, .description {
 }
 
 @media (max-width: 800px) {
-  #resume {
+  main {
     padding: 2em 3em;
   }
 
@@ -191,7 +191,7 @@ h3.time, .description {
     font-weight: 100;
   }
 
-  #resume {
+  main {
     padding: 0 !important;
   }
 
