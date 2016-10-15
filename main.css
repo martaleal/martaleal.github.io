@@ -93,7 +93,6 @@ h3.time .period {
 
 .color, a {
   color: #30bf78;
-  fill: #30bf78;
 }
 
 .company_url {
@@ -130,10 +129,6 @@ ul.subContact li {
   display: inline-block;
   color: rgba(0, 0, 0, 0.64);
   margin-right: 8px;
-}
-
-ul.subContact li a {
-  color: rgba(0, 0, 0, 0.64) !important;
 }
 
 li.skill {
