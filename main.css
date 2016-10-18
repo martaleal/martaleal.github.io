@@ -14,9 +14,9 @@
 }
 
 body {
-  font-family: "Proxima Nova", "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 18px;
-  line-height: 1.3em;
+  line-height: 1.4em;
 }
 
 .pdf-show {
@@ -42,6 +42,7 @@ h3.title {
 h3.subtitle {
   font-weight: 600;
   color: rgba(0, 0, 0, 0.88);
+  margin-bottom: 0.5em;
 }
 
 h3.time,
@@ -58,7 +59,7 @@ h3.time .period {
 }
 
 .description p {
-  margin-bottom: .3em;
+  margin-bottom: .4em;
 }
 
 .description p:last-of-type {
@@ -173,6 +174,8 @@ li.skill {
   margin: 1em 0;
   border-left: 0.25em solid #30bf78;
   padding-left: 1.4em;
+  padding-bottom: .3em;
+  padding-top: .3em;
 }
 
 h2 {
