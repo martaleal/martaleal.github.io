@@ -149,7 +149,7 @@ li.skill {
   margin: 20px 0;
 }
 
-.list ul li section:last-child {
+.list ul li section:not(:first-child) {
   margin: 1em 0;
   border-left: 0.25em solid #30bf78;
   padding-left: 1.3em;
