@@ -61,6 +61,7 @@ h3.time .period {
 
 .description p {
   margin-bottom: .4em;
+  text-align: justify;
 }
 
 .description p:last-of-type {
